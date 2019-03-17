@@ -2,6 +2,7 @@
 
 //Arreglos, Arrays, Matrices
 //Colección de tipos de datos que puede contener una variable
+//Prueba
 
 var nombre ="Víctor Robles";
 var nombres =["Víctor", "Echavarría", "Hernández"];
