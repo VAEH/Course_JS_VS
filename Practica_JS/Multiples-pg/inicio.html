@@ -1,0 +1,72 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>html prueba1.0</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Genera un Titulo de la Web</h1>
+    <h2>Genera un subtitulo más pequeño</h2>
+    <hr/>
+    <blockquote>Genera una especie de cita. que puede ser algo útil</blockquote>
+    <p><strong>Genera un parrafo en negrita y con <em>En cursiva</em></strong></p>
+    <p>Hola que tal, esto genera un parafo</p>
+    <hr/>
+    <hr>
+    <img src="imagenes/LogoUnaula.png" alt="Poniendo imagen en html x1" title="Poniendo una imagen en html" width="100" height="100"/>
+    <hr>
+  <p>
+    <ol><!-- Se Genera una lista como tal-->
+        <li><!--Se crea el elemento de la lista-->
+         ListaN°1
+         <ul>
+             <li>Crea una sublista por decirse así</li>
+         </ul>
+        </li>
+        <li>ListaN°2</li>
+        <li>ListaN°3</li>
+     </ol>
+  </p>
+  <hr>
+  <h3>Forma en la que se realizna las tablas</h3>
+  <table border="1">
+      <tr>
+          <th>Nombre de las columnas de la tabla</th>
+          <th>Nombre columna x2</th>
+      </tr>
+      <tr>
+        <td>Nombre</td>
+        <td>Apellido</td>
+    </tr>
+  </table>
+  <hr>
+  <h3>Formulario</h3><!--Forma para realizar un formulario en HTMl-->
+  <form>
+      <p>
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" placeholder="Escribe tu Nombre"/>
+      </p>
+      <p>
+      <label for="descripcion">Descripcion</label>
+      <textarea name="descripcion"></textarea>
+      </p>
+      <input type="radio" name="genero" value="hombre"/>Hombre<br>
+      <input type="radio" name="genero" value="mujer"/>Mujer<br>
+      <input type="radio" name="genero" value="nada"/>Nada<br>
+
+      <select name="generoDos">
+          <option value="hombre">Hombre</option>
+          <option value="mujer">Mujer</option>
+          <option value="nada">Nada</option>
+      </select>
+      <input type="submit" value="Enviar Formulario"/>
+  </form>
+
+</body>
+</html>
