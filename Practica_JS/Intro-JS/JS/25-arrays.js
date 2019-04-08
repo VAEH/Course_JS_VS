@@ -55,7 +55,7 @@ var busqueda =lenguajes.find(function(lenguaje){
     });
 */
     //Abreviacion de lo anterior utilizando la funcion flecha =>
-    //var busqueda =lenguajes.find (lenguaje => lenguaje == "PHP");
+    //var busqueda =lenguajes.findIndex (lenguaje => lenguaje == "PHP");
    
     //Some sirve para que cumplan una funcion concreta 
     var busqueda =precios.some (precio => precio >=20);

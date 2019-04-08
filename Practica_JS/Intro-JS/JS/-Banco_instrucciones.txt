@@ -1,5 +1,5 @@
 En una Busqueda, el ">-1", Siginifica que no se ha encontrado.
-push: Con el elemento (.push) cojo el elemento y lo meto al array.
+.push(): Con el elemento (.push) cojo el elemento y lo meto al array.
 //https://www.aprenderaprogramar.com/index.php?option=com_content&view=article&id=834:funciones-arrays-javascript-push-sort-ordenar-numeros-concat-join-pop-shift-slice-splice-etc-cu01153e&catid=78:tutorial-basico-programador-web-javascript-desde-&Itemid=206
 pop(): Elimina el último elemento del array y lo devuelve. 
         Ejemplo:  var ultimoElemento = A1.pop();
@@ -39,7 +39,10 @@ find() : devuelve el valor del primer elemento del array que cumple la función 
 findIndex() : Devuelve el indice del elemento encontrado en el array en lugar de su valor.
               Si necesitas encontrar la posición de un elemento o determinar si un elemento
               existe en un array, utiliza Array.prototype.indexOf() o Array.prototype.includes().
+              ejemplo en '25-arrays.js'.
 some() : Comprueba si al menos un elemento del array cumple con la condicion
          implementada por la funcion proporcionada. Este método devuelve false para cualquier
          condicion puesta en un array vacío.
+invertice(): Invierte el orden de una lista, en este caso, de un array por Ejemplo
+
 
