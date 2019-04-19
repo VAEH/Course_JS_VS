@@ -45,4 +45,35 @@ some() : Comprueba si al menos un elemento del array cumple con la condicion
          condicion puesta en un array vacío.
 invertice(): Invierte el orden de una lista, en este caso, de un array por Ejemplo
 
+.innerHTML: Devuelve o establece la sintexis del HTML, se usa para ver el codigo del HTML de la pagina actual.
+                Ejemplo N°29-dom.js 
+
+getElementById(): Seleccionar un elemento del documento por medio del valor del atributo id que se le haya asignado
+
+.textContent: Para sacar el contenido del elemento, como por ejemplo en un "Div"
+                Más informacion en el ejemplo 28-dom.js
+                var todosLosDivs = document.getElementsByTagName('div');
+                var contenidoEnTexto = todosLosDivs[2].textContent;
+                console.log(contenidoEnTexto ); 
+
+document.getElementsByTagName(): Devuelve una lista de elementos  con un nombre determinado 
+
+.forEach(): Este método, ejecuta la función indicada una vez por cada elemento del array.
+
+document.createElement(): Crea un elemento HTML especificado por su tagName.(DOM JS)
+
+document.createTextNode(): Crea un nodo de texto. El texto a crear debe ir entrecomillado. Y de la misma manera el texto existe, pero en ninguna parte. 
+
+.appendChild(): Agrega un nuevo nodo al final de la lista de un elemento hijo de un elemento padre especificado (Sigo Sin entender bien el concepto)
+
+.querySelector(): Podemos obtener el primer elemento del DOM que haga match con lo que pasamos, Permite obtener los elementos  usanod la misma sintaia que aplicamos cuando creamos nuetsras reglas en CSS. 
+
+typeof : Operador útil para determinar el tipo de una variable, o para determinar si esta variable existe en el ámbito en el que tratamos de utilizarla.
+        typeof forma === 'string'
+        typeof true === 'boolean'
+        
+append: añade despues 
+
+preppend: añade despues //(Consultar más al respecto sobre estos conceptos).
+
 
